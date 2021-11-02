@@ -7,7 +7,7 @@ snake[0] = {
 	y: 8 * box
 }
 let direction = "right";
-let jogo = setInterval(iniciarJogo, 150);
+let jogo = setInterval(iniciarJogo, 100);
 let food = {
 	x: Math.floor(Math.random() * 15 + 1) * box,
 	y: Math.floor(Math.random() * 15 + 1) * box
